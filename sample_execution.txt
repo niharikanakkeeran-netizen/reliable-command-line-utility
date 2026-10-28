@@ -1,0 +1,38 @@
+SAMPLE EXECUTION / TEST RECORD
+==============================
+
+Welcome to the Reliable Command-Line Expense Tracker!
+
+========== EXPENSE TRACKER ==========
+1. Add expense
+2. List all expenses
+3. Show total by category
+4. Show overall total
+5. Exit
+Choose an option (1-5): 1
+
+--- Add Expense ---
+Enter description: Lunch
+Enter category (e.g., Food, Travel): Food
+Enter amount (greater than 0): Rs. 120
+Expense added successfully!
+
+[Repeat Add Expense for:]
+Bus ticket | Travel | Rs. 30
+Snacks     | Food   | Rs. 50
+
+--- Total by Category ---
+Food                    Rs. 170.00
+Travel                  Rs. 30.00
+
+--- Overall Total ---
+Total expenses: Rs. 200.00
+Number of expenses: 3
+
+Test invalid input:
+- Menu choice "abc" -> program displays an error and asks again.
+- Amount "-10" or "0" -> program displays an error and asks again.
+- Empty description/category -> program asks for a non-empty value.
+
+Note: This file documents representative expected output. Run the program yourself
+and capture genuine screenshots of the terminal for the submission.
